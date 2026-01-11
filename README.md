@@ -8,47 +8,28 @@ ValutaTrade Hub - платформа для отслеживания и симу
 
 ## Структура проекта:
 
+```text
 finalproject_IvanKiriyan_M25-555/
 ├── data/
-
 │   ├── users.json            # список пользователей
-
 │   ├── portfolios.json       # портфели пользователей
-
 │   ├── rates.json            # кеш последних курсов
-
 │   └── exchange_rates.json   # история измерений
-
 ├── logs/
-
 │   └── actions.log           # логи действий
-
 ├── demonstration/
-
 │   └── finalproyect.gif      # GIF-демонстрация работы программы
-
 ├── valutatrade_hub/
-
 │   ├── core/                 # модели, usecases, валюты, исключения, utils
-
 │   ├── infra/                # SettingsLoader и DatabaseManager (Singleton)
-
 │   ├── parser_service/       # клиенты API + updater + storage + scheduler
-
 │   ├── cli/                  # интерфейс команд
-
 │   ├── decorators.py         # @log_action
-
 │   └── logging_config.py     # конфигурация логов
-
 ├── main.py
-
 ├── Makefile
-
 ├── pyproject.toml
-
 └── README.md
-
 
 # Работа с проектом локально
 1. Клонируйте проект - в шапке проекта на гитхаб при помощи кнопки code
