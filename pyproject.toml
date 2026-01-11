@@ -22,3 +22,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 project = "valutatrade_hub.cli.interface:main"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
