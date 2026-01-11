@@ -1,0 +1,58 @@
+[
+  {
+    "user_id": 1,
+    "wallets": {
+      "USD": {
+        "currency_code": "USD",
+        "balance": 2098.739528634128
+      },
+      "RUB": {
+        "currency_code": "RUB",
+        "balance": 100.0
+      }
+    }
+  },
+  {
+    "user_id": 2,
+    "wallets": {}
+  },
+  {
+    "user_id": 3,
+    "wallets": {
+      "USD": {
+        "currency_code": "USD",
+        "balance": 99995.73952863413
+      },
+      "RUB": {
+        "currency_code": "RUB",
+        "balance": 100.0
+      }
+    }
+  },
+  {
+    "user_id": 4,
+    "wallets": {
+      "USD": {
+        "currency_code": "USD",
+        "balance": 1000.0
+      }
+    }
+  },
+  {
+    "user_id": 5,
+    "wallets": {
+      "USD": {
+        "currency_code": "USD",
+        "balance": 152.82952863412802
+      },
+      "RUB": {
+        "currency_code": "RUB",
+        "balance": 100.0
+      },
+      "SOL": {
+        "currency_code": "SOL",
+        "balance": 1.0
+      }
+    }
+  }
+]

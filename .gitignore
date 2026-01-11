@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+poetry.lock
+logs/*.log
+logs/*.log.*
+.vscode/*
+!.vscode/launch.json

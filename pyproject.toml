@@ -8,6 +8,8 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "prettytable (>=3.17.0,<4.0.0)",
+    "requests (>=2.32.5,<3.0.0)"
 ]
 
 
@@ -26,3 +28,7 @@ project = "valutatrade_hub.cli.interface:main"
 [tool.ruff]
 line-length = 88
 target-version = "py311"
+[dependency-groups]
+dev = [
+    "ruff (>=0.14.11,<0.15.0)"
+]
