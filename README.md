@@ -30,6 +30,7 @@ finalproject_IvanKiriyan_M25-555/
 ├── Makefile
 ├── pyproject.toml
 └── README.md
+```
 
 # Работа с проектом локально
 1. Клонируйте проект - в шапке проекта на гитхаб при помощи кнопки code
